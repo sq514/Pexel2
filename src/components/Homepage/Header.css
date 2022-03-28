@@ -1,0 +1,135 @@
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:4;
+    display:flex;
+    height:70px;
+}
+.headerLeft{
+    display:flex;
+    align-items: center;
+    color:white;
+    margin-left: 15px;
+}
+.headerLeft:hover{
+    cursor: pointer;
+    color: #f6f6f6;
+}
+.headerIcon svg{
+    width:53px;
+    height:53px;
+    color: #05a081;
+    border-radius: 25px;
+}
+.headerText{
+    margin-left: 10px;
+    font-size:22px;
+    font-weight: 600;
+    display: flex;
+}
+.headerRight{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    width:100%;
+    margin-right:15px;
+}
+.headerUpload{
+    color:white;
+    background-color:#05a081;
+    height:40px;
+    width:110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size:17px;
+    font-weight:600;
+    margin-left:20px;
+}
+.headerUpload:hover{
+    cursor: pointer;
+    color: #eeeeee;
+    margin-bottom: 5px;
+    background-color: #05775d;
+}
+.headerRightIcon{
+    width:70px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.headerRightIcon:hover{
+    cursor: pointer;
+    color: #eeeeee;
+}
+.headerRightIcon svg{
+    width:25px;
+    height:25px;
+    margin-left: 3px;
+}
+.headerClass{
+    width:70px;
+    height:40px;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left:10px;
+}
+.headerClass:hover{
+    cursor: pointer;
+    color: #eeeeee;
+}
+.exploreWrapper{
+    position:relative;
+}
+.exploreContainer{
+    padding-top:5px;
+    padding-bottom:5px;
+    width:150px;
+    height:93px;
+    display: none;
+    position: absolute;
+    top:40px;
+    bottom: 5%;
+    left: -40px;
+    right: 0;
+    background-color: #fff;
+    text-align: left;
+}
+.exploreContainer:after{
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+    left: calc(50% - 10px);
+    content: "";
+    background: #fff;
+    position: absolute;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    top:-3px;
+}
+.exploreWrapper:hover .exploreContainer{
+    display: block;
+}
+.exploreContent{
+    background-color: white;
+    width:130px;
+    padding-left: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight: 600;
+    color:gray;
+}
+.exploreContent:hover{
+    background-color: #eeeeee;;
+    cursor: pointer;
+    color: #2f0008;
+}

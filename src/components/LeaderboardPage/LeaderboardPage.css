@@ -1,0 +1,136 @@
+.leaderboardWrapper{
+    margin-left:270px;
+    margin-right:270px;
+}
+.leaderboardTitleTop{
+    margin-top: 25px;
+    font-size:30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    color: rgba(17, 17, 17, 0.91);
+}
+.leaderboardTitleBottom{
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.leaderboardTitleBottomBold{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left:5px;
+    font-weight: 500;
+}
+.leaderboardNavigationBar{
+    margin-top:20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    height:38px;
+}
+.leaderboardNavigationBarButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px;
+    margin-right:10px;
+    font-weight:500;
+    height:98%;
+}
+.leaderboardNavigationBarButton:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 255, 0.84) !important;
+}
+
+.leaderboardNavigationBarButtonUnderline{
+    border:1px solid blue;
+}
+.leaderboardSubsection{
+    display: flex;
+}
+.leaderboardRankWrapper{
+    height:150px;
+    width:80px;
+    color: #2e2e2e;
+}
+.rankNumber{
+    margin-top:30px;
+    font-size:40px;
+    font-weight: bold;
+}
+.viewsNumber{
+    font-size: 14px;
+    font-weight: bold;
+}
+.viewsText{
+    font-size:14px;
+    font-weight: 200;
+}
+.leaderboardPersonalInfoWrapper{
+    width:400px;
+    display: flex;
+    align-items: center;
+}
+.leaderboardPersonalIconWrapper{
+    margin-left: 10px;
+    margin-right:10px;
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.leaderboardPersonalIconWrapper:hover{
+    cursor: pointer;
+}
+.leaderboardPersonalIconWrapper img{
+    height:100%;
+    width:100%;
+}
+.leaderboardPersonalNameWrapper{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.leaderboardPersonalNameWrapper:hover{
+    cursor: pointer;
+}
+.leaderboardAddButton{
+    margin-left: 8px;
+    border:1px solid gray;
+    height:15px;
+    width:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgba(247, 247, 247, 0.72);
+}
+.leaderboardAddButton svg{
+    height:15px;
+    width:15px;
+    color: #333333;
+}
+.leaderboardAddButton:hover{
+    cursor: pointer;
+    background-color: rgba(180, 180, 180, 0.81);
+}
+.leaderboardPersonalPhotoWrapper{
+    margin-left:20px;
+    display: flex;
+    text-align: start;
+    height:150px;
+    width:1100px;
+    overflow: hidden;
+    border:1px solid red;
+}
+
+.leaderboardPersonalPhotoWrapper img{
+    height:100%;
+    margin-right: 10px;
+}
+.last30DaysLeaderboard{
+    margin-top:45px;
+}
